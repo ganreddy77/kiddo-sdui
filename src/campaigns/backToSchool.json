@@ -1,0 +1,82 @@
+{
+  "theme": {
+    "primary": "#FF9933",
+    "background": "#FFF5E6"
+  },
+
+  "components": [
+    {
+      "id": "1",
+      "type": "BANNER_HERO",
+      "title": "Back To School Sale"
+    },
+
+    {
+      "id": "2",
+      "type": "PRODUCT_GRID_2X2",
+      "products": [
+        {
+          "id": "101",
+          "name": "Lunch Box",
+          "price": 299,
+          "action": {
+            "type": "ADD_TO_CART",
+            "payload": {
+              "id": "101",
+              "name": "Lunch Box",
+              "price": 299
+            }
+          }
+        },
+
+        {
+          "id": "102",
+          "name": "School Bag",
+          "price": 999,
+          "action": {
+            "type": "ADD_TO_CART",
+            "payload": {
+              "id": "102",
+              "name": "School Bag",
+              "price": 999
+            }
+          }
+        },
+
+        {
+          "id": "103",
+          "name": "Bottle",
+          "price": 199,
+          "action": {
+            "type": "ADD_TO_CART",
+            "payload": {
+              "id": "103",
+              "name": "Bottle",
+              "price": 199
+            }
+          }
+        },
+
+        {
+          "id": "104",
+          "name": "Notebook",
+          "price": 149,
+          "action": {
+            "type": "ADD_TO_CART",
+            "payload": {
+              "id": "104",
+              "name": "Notebook",
+              "price": 149
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "500",
+      "type": "FOOTER",
+      "text": "Powered by Kiddo SDUI Engine"
+    }
+  ]
+}

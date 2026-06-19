@@ -1,0 +1,60 @@
+
+{
+  "campaigns": [
+    {
+      "id": "backToSchool",
+      "theme": {
+        "primary": "#FF9933",
+        "background": "#FFF5E6"
+      },
+      "components": [
+        {
+          "id": "1",
+          "type": "BANNER_HERO",
+          "title": "Back To School Sale"
+        },
+        {
+          "id": "2",
+          "type": "PRODUCT_GRID_2X2",
+          "products": [
+            {
+              "id": "p1",
+              "name": "School Bag",
+              "price": 999
+            },
+            {
+              "id": "p2",
+              "name": "Lunch Box",
+              "price": 299
+            },
+            {
+              "id": "p3",
+              "name": "Water Bottle",
+              "price": 199
+            },
+            {
+              "id": "p4",
+              "name": "Notebook",
+              "price": 99
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "summerSale",
+      "theme": {
+        "primary": "#00C853",
+        "background": "#F1FFF1"
+      },
+      "components": [
+        {
+          "id": "1",
+          "type": "BANNER_HERO_V2",
+          "title": "Summer Mega Sale",
+          "subtitle": "Up To 70% Off"
+        }
+      ]
+    }
+  ]
+}

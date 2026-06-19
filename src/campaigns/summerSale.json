@@ -1,0 +1,45 @@
+{
+  "theme": {
+    "primary": "#00C853",
+    "background": "#F1FFF1"
+  },
+
+  "components": [
+  {
+    "id": "1",
+    "type": "BANNER_HERO_V2",
+    "title": "Summer Mega Sale",
+    "subtitle": "Up To 70% Off"
+  },
+
+  {
+    "id": "2",
+    "type": "DYNAMIC_COLLECTION",
+    "title": "Summer Essentials",
+    "items": [
+      {
+        "id": "201",
+        "name": "Toy Car"
+      },
+      {
+        "id": "202",
+        "name": "Beach Ball"
+      },
+      {
+        "id": "203",
+        "name": "Water Gun"
+      },
+      {
+        "id": "204",
+        "name": "Kids Tent"
+      }
+    ]
+  },
+
+  {
+    "id": "500",
+    "type": "FOOTER",
+    "text": "Powered by Kiddo SDUI Engine"
+  }
+]
+}
